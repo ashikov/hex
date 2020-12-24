@@ -1,11 +1,10 @@
 [user]
-    name = serge
-    email = sergeykarpuk@yandex.by
+    name = hexlet
+    email = info@hexlet.io
 [push]
     default = simple
 [core]
     editor = vim
-    excludesfile = /home/serge/.gitignore_global
 [pretty]
     my = format:%C(yellow)%h%C(reset) | %C(dim green)%cd%C(reset) | %C(green)%cr%C(reset) | %C(cyan)%s%C(red)%d%C(red)%C(reset) %C(blue)[%an]%C(reset)
 [format]

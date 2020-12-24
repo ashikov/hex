@@ -6,7 +6,6 @@ RUN echo $TZ > /etc/timezone
 
 RUN apt-get update && apt-get install -y sudo
 RUN apt-get update && apt-get install -y curl
-RUN apt-get update && apt-get install -y python-pip
 RUN apt-get update && apt-get install -y python3-pip
 RUN apt-get update && apt-get install -y git
 RUN apt-get update && apt-get install -y vim
