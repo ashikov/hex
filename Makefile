@@ -7,17 +7,5 @@ build:
 base:
 	docker run -it hex/base /bin/bash
 
-php:
-	docker run -it hex/php /bin/bash
-
 node:
 	docker run -it hex/node /bin/bash
-
-python:
-	docker run -it hexlet/hexlet-python /bin/bash
-
-pull:
-	docker pull hexlet/hexlet-python
-	docker pull hexlet/hexlet-java
-	docker pull hexlet/hexlet-javascript
-	docker pull hexlet/hexlet-php
